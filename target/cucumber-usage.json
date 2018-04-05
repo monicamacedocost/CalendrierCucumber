@@ -1,0 +1,146 @@
+[
+  {
+    "source": "^eu preencho o e-mail \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "eu preencho o e-mail \"monica.costa@savoir.com.br\"",
+        "aggregatedDurations": {
+          "average": 0.163015384,
+          "median": 0.163015384
+        },
+        "durations": [
+          {
+            "duration": 0.163015384,
+            "location": "Calendrier.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^eu preencho o telefone \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "eu preencho o telefone \"(11) 96305-3582\"",
+        "aggregatedDurations": {
+          "average": 0.149430733,
+          "median": 0.149430733
+        },
+        "durations": [
+          {
+            "duration": 0.149430733,
+            "location": "Calendrier.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^eu preencho o nome \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "eu preencho o nome \"Monica Costa\"",
+        "aggregatedDurations": {
+          "average": 0.169345652,
+          "median": 0.169345652
+        },
+        "durations": [
+          {
+            "duration": 0.169345652,
+            "location": "Calendrier.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^clico em enviar$",
+    "steps": [
+      {
+        "name": "clico em enviar",
+        "aggregatedDurations": {
+          "average": 5.110298369,
+          "median": 5.110298369
+        },
+        "durations": [
+          {
+            "duration": 5.110298369,
+            "location": "Calendrier.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^eu preencho o assunto \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "eu preencho o assunto \"Teste Cucumber\"",
+        "aggregatedDurations": {
+          "average": 0.130463025,
+          "median": 0.130463025
+        },
+        "durations": [
+          {
+            "duration": 0.130463025,
+            "location": "Calendrier.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^eu preencho a mensagem \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "eu preencho a mensagem \"Teste Cucumber\"",
+        "aggregatedDurations": {
+          "average": 0.121581921,
+          "median": 0.121581921
+        },
+        "durations": [
+          {
+            "duration": 0.121581921,
+            "location": "Calendrier.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^eu devo ver a mensagem de confirmação \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "eu devo ver a mensagem de confirmação \"Seu e-mail foi enviado com sucesso!\"",
+        "aggregatedDurations": {
+          "average": 15.41536224,
+          "median": 15.41536224
+        },
+        "durations": [
+          {
+            "duration": 15.41536224,
+            "location": "Calendrier.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^que eu acesso a página da landing \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "que eu acesso a página da landing \"http://www.hml.calendrier.com.br/contato/\"",
+        "aggregatedDurations": {
+          "average": 11.176680858,
+          "median": 11.176680858
+        },
+        "durations": [
+          {
+            "duration": 11.176680858,
+            "location": "Calendrier.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]
