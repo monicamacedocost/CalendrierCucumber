@@ -5,13 +5,26 @@
       {
         "name": "eu preencho o e-mail \"monica.costa@savoir.com.br\"",
         "aggregatedDurations": {
-          "average": 0.163015384,
-          "median": 0.163015384
+          "average": 0.932907951,
+          "median": 0.932907951
         },
         "durations": [
           {
-            "duration": 0.163015384,
-            "location": "Calendrier.feature:11"
+            "duration": 0.932907951,
+            "location": "Fale_Conosco.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "eu preencho o e-mail \"monica.costasavoir.com.br\"",
+        "aggregatedDurations": {
+          "average": 0.240268316,
+          "median": 0.240268316
+        },
+        "durations": [
+          {
+            "duration": 0.240268316,
+            "location": "Fale_Conosco.feature:24"
           }
         ]
       }
@@ -23,13 +36,17 @@
       {
         "name": "eu preencho o telefone \"(11) 96305-3582\"",
         "aggregatedDurations": {
-          "average": 0.149430733,
-          "median": 0.149430733
+          "average": 0.278026542,
+          "median": 0.278026542
         },
         "durations": [
           {
-            "duration": 0.149430733,
-            "location": "Calendrier.feature:12"
+            "duration": 0.188493289,
+            "location": "Fale_Conosco.feature:12"
+          },
+          {
+            "duration": 0.367559796,
+            "location": "Fale_Conosco.feature:25"
           }
         ]
       }
@@ -41,13 +58,17 @@
       {
         "name": "eu preencho o nome \"Monica Costa\"",
         "aggregatedDurations": {
-          "average": 0.169345652,
-          "median": 0.169345652
+          "average": 0.850653468,
+          "median": 0.850653468
         },
         "durations": [
           {
-            "duration": 0.169345652,
-            "location": "Calendrier.feature:10"
+            "duration": 0.861770049,
+            "location": "Fale_Conosco.feature:10"
+          },
+          {
+            "duration": 0.839536888,
+            "location": "Fale_Conosco.feature:23"
           }
         ]
       }
@@ -59,13 +80,17 @@
       {
         "name": "clico em enviar",
         "aggregatedDurations": {
-          "average": 5.110298369,
-          "median": 5.110298369
+          "average": 8.205235618,
+          "median": 8.205235618
         },
         "durations": [
           {
-            "duration": 5.110298369,
-            "location": "Calendrier.feature:15"
+            "duration": 8.204003603,
+            "location": "Fale_Conosco.feature:15"
+          },
+          {
+            "duration": 8.206467634,
+            "location": "Fale_Conosco.feature:28"
           }
         ]
       }
@@ -77,13 +102,17 @@
       {
         "name": "eu preencho o assunto \"Teste Cucumber\"",
         "aggregatedDurations": {
-          "average": 0.130463025,
-          "median": 0.130463025
+          "average": 0.177900347,
+          "median": 0.177900347
         },
         "durations": [
           {
-            "duration": 0.130463025,
-            "location": "Calendrier.feature:13"
+            "duration": 0.209694994,
+            "location": "Fale_Conosco.feature:13"
+          },
+          {
+            "duration": 0.146105701,
+            "location": "Fale_Conosco.feature:26"
           }
         ]
       }
@@ -95,13 +124,17 @@
       {
         "name": "eu preencho a mensagem \"Teste Cucumber\"",
         "aggregatedDurations": {
-          "average": 0.121581921,
-          "median": 0.121581921
+          "average": 8.828746166,
+          "median": 8.828746166
         },
         "durations": [
           {
-            "duration": 0.121581921,
-            "location": "Calendrier.feature:14"
+            "duration": 8.747484225,
+            "location": "Fale_Conosco.feature:14"
+          },
+          {
+            "duration": 8.910008108,
+            "location": "Fale_Conosco.feature:27"
           }
         ]
       }
@@ -113,13 +146,31 @@
       {
         "name": "eu devo ver a mensagem de confirmação \"Seu e-mail foi enviado com sucesso!\"",
         "aggregatedDurations": {
-          "average": 15.41536224,
-          "median": 15.41536224
+          "average": 27.62478212,
+          "median": 27.62478212
         },
         "durations": [
           {
-            "duration": 15.41536224,
-            "location": "Calendrier.feature:16"
+            "duration": 27.62478212,
+            "location": "Fale_Conosco.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^eu devo ver a mensagem de erro \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "eu devo ver a mensagem de erro \"Por favor, forneça um endereço de email válido.\"",
+        "aggregatedDurations": {
+          "average": 9.075055464,
+          "median": 9.075055464
+        },
+        "durations": [
+          {
+            "duration": 9.075055464,
+            "location": "Fale_Conosco.feature:29"
           }
         ]
       }
@@ -131,13 +182,17 @@
       {
         "name": "que eu acesso a página da landing \"http://www.hml.calendrier.com.br/contato/\"",
         "aggregatedDurations": {
-          "average": 11.176680858,
-          "median": 11.176680858
+          "average": 14.625515513,
+          "median": 14.625515513
         },
         "durations": [
           {
-            "duration": 11.176680858,
-            "location": "Calendrier.feature:9"
+            "duration": 14.04314835,
+            "location": "Fale_Conosco.feature:9"
+          },
+          {
+            "duration": 15.207882677,
+            "location": "Fale_Conosco.feature:22"
           }
         ]
       }

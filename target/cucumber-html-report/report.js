@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Calendrier.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Fale_Conosco.feature");
 formatter.feature({
   "comments": [
     {
@@ -73,10 +73,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "CalendrierSteps.que_eu_acesso_a_página_da_landing(String)"
+  "location": "Page_Landing_Fale_Conosco_Steps.que_eu_acesso_a_página_da_landing(String)"
 });
 formatter.result({
-  "duration": 11176680858,
+  "duration": 14043148350,
   "status": "passed"
 });
 formatter.match({
@@ -86,10 +86,10 @@ formatter.match({
       "offset": 20
     }
   ],
-  "location": "CalendrierSteps.eu_preencho_o_nome(String)"
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_preencho_o_nome(String)"
 });
 formatter.result({
-  "duration": 169345652,
+  "duration": 861770049,
   "status": "passed"
 });
 formatter.match({
@@ -99,10 +99,10 @@ formatter.match({
       "offset": 22
     }
   ],
-  "location": "CalendrierSteps.eu_preencho_o_e_mail(String)"
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_preencho_o_e_mail(String)"
 });
 formatter.result({
-  "duration": 163015384,
+  "duration": 932907951,
   "status": "passed"
 });
 formatter.match({
@@ -112,10 +112,10 @@ formatter.match({
       "offset": 24
     }
   ],
-  "location": "CalendrierSteps.eu_preencho_o_telefone(String)"
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_preencho_o_telefone(String)"
 });
 formatter.result({
-  "duration": 149430733,
+  "duration": 188493289,
   "status": "passed"
 });
 formatter.match({
@@ -125,10 +125,10 @@ formatter.match({
       "offset": 23
     }
   ],
-  "location": "CalendrierSteps.eu_preencho_o_assunto(String)"
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_preencho_o_assunto(String)"
 });
 formatter.result({
-  "duration": 130463025,
+  "duration": 209694994,
   "status": "passed"
 });
 formatter.match({
@@ -138,17 +138,17 @@ formatter.match({
       "offset": 24
     }
   ],
-  "location": "CalendrierSteps.eu_preencho_a_mensagem(String)"
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_preencho_a_mensagem(String)"
 });
 formatter.result({
-  "duration": 121581921,
+  "duration": 8747484225,
   "status": "passed"
 });
 formatter.match({
-  "location": "CalendrierSteps.clico_em_enviar()"
+  "location": "Page_Landing_Fale_Conosco_Steps.clico_em_enviar()"
 });
 formatter.result({
-  "duration": 5110298369,
+  "duration": 8204003603,
   "status": "passed"
 });
 formatter.match({
@@ -158,10 +158,162 @@ formatter.match({
       "offset": 39
     }
   ],
-  "location": "CalendrierSteps.eu_devo_ver_a_mensagem_de_confirmação(String)"
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_devo_ver_a_mensagem_de_confirmação(String)"
 });
 formatter.result({
-  "duration": 15415362240,
+  "duration": 27624782120,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 21,
+  "name": "Enviar o formulário Fale Conosco com erro no e-mail",
+  "description": "",
+  "id": ";enviar-o-formulário-fale-conosco-com-erro-no-e-mail",
+  "type": "scenario",
+  "keyword": "Cenario",
+  "tags": [
+    {
+      "line": 20,
+      "name": "@landing_faleconosco_erro_email"
+    }
+  ]
+});
+formatter.step({
+  "line": 22,
+  "name": "que eu acesso a página da landing \"http://www.hml.calendrier.com.br/contato/\"",
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 23,
+  "name": "eu preencho o nome \"Monica Costa\"",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 24,
+  "name": "eu preencho o e-mail \"monica.costasavoir.com.br\"",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 25,
+  "name": "eu preencho o telefone \"(11) 96305-3582\"",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 26,
+  "name": "eu preencho o assunto \"Teste Cucumber\"",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 27,
+  "name": "eu preencho a mensagem \"Teste Cucumber\"",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 28,
+  "name": "clico em enviar",
+  "keyword": "E "
+});
+formatter.step({
+  "line": 29,
+  "name": "eu devo ver a mensagem de erro \"Por favor, forneça um endereço de email válido.\"",
+  "keyword": "Então "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "http://www.hml.calendrier.com.br/contato/",
+      "offset": 35
+    }
+  ],
+  "location": "Page_Landing_Fale_Conosco_Steps.que_eu_acesso_a_página_da_landing(String)"
+});
+formatter.result({
+  "duration": 15207882677,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Monica Costa",
+      "offset": 20
+    }
+  ],
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_preencho_o_nome(String)"
+});
+formatter.result({
+  "duration": 839536888,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "monica.costasavoir.com.br",
+      "offset": 22
+    }
+  ],
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_preencho_o_e_mail(String)"
+});
+formatter.result({
+  "duration": 240268316,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "(11) 96305-3582",
+      "offset": 24
+    }
+  ],
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_preencho_o_telefone(String)"
+});
+formatter.result({
+  "duration": 367559796,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Teste Cucumber",
+      "offset": 23
+    }
+  ],
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_preencho_o_assunto(String)"
+});
+formatter.result({
+  "duration": 146105701,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Teste Cucumber",
+      "offset": 24
+    }
+  ],
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_preencho_a_mensagem(String)"
+});
+formatter.result({
+  "duration": 8910008108,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Page_Landing_Fale_Conosco_Steps.clico_em_enviar()"
+});
+formatter.result({
+  "duration": 8206467634,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Por favor, forneça um endereço de email válido.",
+      "offset": 32
+    }
+  ],
+  "location": "Page_Landing_Fale_Conosco_Steps.eu_devo_ver_a_mensagem_de_erro(String)"
+});
+formatter.result({
+  "duration": 9075055464,
   "status": "passed"
 });
 });

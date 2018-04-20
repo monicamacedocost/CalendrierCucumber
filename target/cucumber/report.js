@@ -18,7 +18,7 @@ formatter.scenario({
   "description": "",
   "id": ";enviar-o-formulário-fale-conosco-com-sucesso",
   "type": "scenario",
-  "keyword": "Cenario",
+  "keyword": "Cenário",
   "tags": [
     {
       "line": 6,
@@ -73,10 +73,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "CalendrierSteps.acessar_landing_faleconosco(String)"
+  "location": "CalendrierSteps.que_eu_acesso_a_página_da_landing(String)"
 });
 formatter.result({
-  "duration": 16680891771,
+  "duration": 14365402379,
   "status": "passed"
 });
 formatter.match({
@@ -89,7 +89,7 @@ formatter.match({
   "location": "CalendrierSteps.eu_preencho_o_nome(String)"
 });
 formatter.result({
-  "duration": 148243622,
+  "duration": 304045767,
   "status": "passed"
 });
 formatter.match({
@@ -102,7 +102,7 @@ formatter.match({
   "location": "CalendrierSteps.eu_preencho_o_e_mail(String)"
 });
 formatter.result({
-  "duration": 167249817,
+  "duration": 166571019,
   "status": "passed"
 });
 formatter.match({
@@ -115,7 +115,7 @@ formatter.match({
   "location": "CalendrierSteps.eu_preencho_o_telefone(String)"
 });
 formatter.result({
-  "duration": 139646039,
+  "duration": 134101137,
   "status": "passed"
 });
 formatter.match({
@@ -128,7 +128,7 @@ formatter.match({
   "location": "CalendrierSteps.eu_preencho_o_assunto(String)"
 });
 formatter.result({
-  "duration": 117183705,
+  "duration": 123626223,
   "status": "passed"
 });
 formatter.match({
@@ -141,14 +141,14 @@ formatter.match({
   "location": "CalendrierSteps.eu_preencho_a_mensagem(String)"
 });
 formatter.result({
-  "duration": 117364594,
+  "duration": 119376388,
   "status": "passed"
 });
 formatter.match({
   "location": "CalendrierSteps.clico_em_enviar()"
 });
 formatter.result({
-  "duration": 116967749,
+  "duration": 105732701,
   "status": "passed"
 });
 formatter.match({
@@ -161,98 +161,19 @@ formatter.match({
   "location": "CalendrierSteps.eu_devo_ver_a_mensagem_de_confirmação(String)"
 });
 formatter.result({
-  "duration": 11457318273,
+  "duration": 11414703966,
   "status": "passed"
 });
-formatter.scenarioOutline({
+formatter.scenario({
   "line": 21,
   "name": "Enviar o formulário Fale Conosco com erro no e-mail",
   "description": "",
   "id": ";enviar-o-formulário-fale-conosco-com-erro-no-e-mail",
-  "type": "scenario_outline",
-  "keyword": "Esquema do Cenário",
-  "tags": [
-    {
-      "line": 19,
-      "name": "@landing_faleconosco_erro_email"
-    }
-  ]
-});
-formatter.step({
-  "line": 22,
-  "name": "que eu acesso a página da landing \"http://www.hml.calendrier.com.br/contato/\"",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 23,
-  "name": "eu preencho o nome errado \u003cnome\u003e",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 24,
-  "name": "eu preencho o e-mail \u003cemail\u003e",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 25,
-  "name": "eu preencho o telefone \"(11) 96305-3582\"",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 26,
-  "name": "eu preencho o assunto \"Teste Cucumber\"",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 27,
-  "name": "eu preencho a mensagem \"Teste Cucumber\"",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 28,
-  "name": "clico em enviar",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 29,
-  "name": "eu devo ver a mensagem de erro \"Por favor, forneça um endereço de email válido.\"",
-  "keyword": "Então "
-});
-formatter.examples({
-  "line": 31,
-  "name": "",
-  "description": "",
-  "id": ";enviar-o-formulário-fale-conosco-com-erro-no-e-mail;",
-  "rows": [
-    {
-      "cells": [
-        "nome",
-        "email"
-      ],
-      "line": 32,
-      "id": ";enviar-o-formulário-fale-conosco-com-erro-no-e-mail;;1"
-    },
-    {
-      "cells": [
-        "Monica Costa",
-        "monica.costa.com.br"
-      ],
-      "line": 33,
-      "id": ";enviar-o-formulário-fale-conosco-com-erro-no-e-mail;;2"
-    }
-  ],
-  "keyword": "Exemplos"
-});
-formatter.scenario({
-  "line": 33,
-  "name": "Enviar o formulário Fale Conosco com erro no e-mail",
-  "description": "",
-  "id": ";enviar-o-formulário-fale-conosco-com-erro-no-e-mail;;2",
   "type": "scenario",
-  "keyword": "Esquema do Cenário",
+  "keyword": "Cenario",
   "tags": [
     {
-      "line": 19,
+      "line": 20,
       "name": "@landing_faleconosco_erro_email"
     }
   ]
@@ -264,18 +185,12 @@ formatter.step({
 });
 formatter.step({
   "line": 23,
-  "name": "eu preencho o nome errado Monica Costa",
-  "matchedColumns": [
-    0
-  ],
+  "name": "eu preencho o nome \"Monica Costa\"",
   "keyword": "Quando "
 });
 formatter.step({
   "line": 24,
-  "name": "eu preencho o e-mail monica.costa.com.br",
-  "matchedColumns": [
-    1
-  ],
+  "name": "eu preencho o e-mail \"monica.costasavoir.com.br\"",
   "keyword": "E "
 });
 formatter.step({
@@ -310,19 +225,37 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "CalendrierSteps.acessar_landing_faleconosco(String)"
+  "location": "CalendrierSteps.que_eu_acesso_a_página_da_landing(String)"
 });
 formatter.result({
-  "duration": 12893472508,
+  "duration": 12998585384,
   "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "Monica Costa",
+      "offset": 20
+    }
+  ],
+  "location": "CalendrierSteps.eu_preencho_o_nome(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 140645233,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "monica.costasavoir.com.br",
+      "offset": 22
+    }
+  ],
+  "location": "CalendrierSteps.eu_preencho_o_e_mail(String)"
+});
+formatter.result({
+  "duration": 163378725,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -334,7 +267,8 @@ formatter.match({
   "location": "CalendrierSteps.eu_preencho_o_telefone(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 153597863,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -346,7 +280,8 @@ formatter.match({
   "location": "CalendrierSteps.eu_preencho_o_assunto(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 124330538,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -358,13 +293,15 @@ formatter.match({
   "location": "CalendrierSteps.eu_preencho_a_mensagem(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 115642709,
+  "status": "passed"
 });
 formatter.match({
   "location": "CalendrierSteps.clico_em_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 184277665,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -376,6 +313,7 @@ formatter.match({
   "location": "CalendrierSteps.eu_devo_ver_a_mensagem_de_erro(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 11346818654,
+  "status": "passed"
 });
 });

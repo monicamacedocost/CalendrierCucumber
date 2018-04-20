@@ -3,12 +3,23 @@ Funcionalidade:
   Usuário vai preencher o formulário de contato da landing do Calendrier, o objetivo é enviar os dados com sucesso.
 
   @landing_faleconosco_envio_sucesso
-  Cenário: Enviar o formulário Fale Conosco com sucesso                                [90m# Calendrier.feature:8[0m
-    [32mDado [0m[32mque eu acesso a página da landing "[0m[32m[1mhttp://www.hml.calendrier.com.br/contato/[0m[32m"[0m [90m# CalendrierSteps.que_eu_acesso_a_página_da_landing(String)[0m
-    [32mQuando [0m[32meu preencho o nome "[0m[32m[1mMonica Costa[0m[32m"[0m                                           [90m# CalendrierSteps.eu_preencho_o_nome(String)[0m
-    [32mE [0m[32meu preencho o e-mail "[0m[32m[1mmonica.costa@savoir.com.br[0m[32m"[0m                                [90m# CalendrierSteps.eu_preencho_o_e_mail(String)[0m
-    [32mE [0m[32meu preencho o telefone "[0m[32m[1m(11) 96305-3582[0m[32m"[0m                                         [90m# CalendrierSteps.eu_preencho_o_telefone(String)[0m
-    [32mE [0m[32meu preencho o assunto "[0m[32m[1mTeste Cucumber[0m[32m"[0m                                           [90m# CalendrierSteps.eu_preencho_o_assunto(String)[0m
-    [32mE [0m[32meu preencho a mensagem "[0m[32m[1mTeste Cucumber[0m[32m"[0m                                          [90m# CalendrierSteps.eu_preencho_a_mensagem(String)[0m
-    [32mE [0m[32mclico em enviar[0m                                                                  [90m# CalendrierSteps.clico_em_enviar()[0m
-    [32mEntão [0m[32meu devo ver a mensagem de confirmação "[0m[32m[1mSeu e-mail foi enviado com sucesso![0m[32m"[0m  [90m# CalendrierSteps.eu_devo_ver_a_mensagem_de_confirmação(String)[0m
+  Cenário: Enviar o formulário Fale Conosco com sucesso                                [90m# Fale_Conosco.feature:8[0m
+    [32mDado [0m[32mque eu acesso a página da landing "[0m[32m[1mhttp://www.hml.calendrier.com.br/contato/[0m[32m"[0m [90m# Page_Landing_Fale_Conosco_Steps.que_eu_acesso_a_página_da_landing(String)[0m
+    [32mQuando [0m[32meu preencho o nome "[0m[32m[1mMonica Costa[0m[32m"[0m                                           [90m# Page_Landing_Fale_Conosco_Steps.eu_preencho_o_nome(String)[0m
+    [32mE [0m[32meu preencho o e-mail "[0m[32m[1mmonica.costa@savoir.com.br[0m[32m"[0m                                [90m# Page_Landing_Fale_Conosco_Steps.eu_preencho_o_e_mail(String)[0m
+    [32mE [0m[32meu preencho o telefone "[0m[32m[1m(11) 96305-3582[0m[32m"[0m                                         [90m# Page_Landing_Fale_Conosco_Steps.eu_preencho_o_telefone(String)[0m
+    [32mE [0m[32meu preencho o assunto "[0m[32m[1mTeste Cucumber[0m[32m"[0m                                           [90m# Page_Landing_Fale_Conosco_Steps.eu_preencho_o_assunto(String)[0m
+    [32mE [0m[32meu preencho a mensagem "[0m[32m[1mTeste Cucumber[0m[32m"[0m                                          [90m# Page_Landing_Fale_Conosco_Steps.eu_preencho_a_mensagem(String)[0m
+    [32mE [0m[32mclico em enviar[0m                                                                  [90m# Page_Landing_Fale_Conosco_Steps.clico_em_enviar()[0m
+    [32mEntão [0m[32meu devo ver a mensagem de confirmação "[0m[32m[1mSeu e-mail foi enviado com sucesso![0m[32m"[0m  [90m# Page_Landing_Fale_Conosco_Steps.eu_devo_ver_a_mensagem_de_confirmação(String)[0m
+
+  @landing_faleconosco_erro_email
+  Cenario: Enviar o formulário Fale Conosco com erro no e-mail                             [90m# Fale_Conosco.feature:21[0m
+    [32mDado [0m[32mque eu acesso a página da landing "[0m[32m[1mhttp://www.hml.calendrier.com.br/contato/[0m[32m"[0m     [90m# Page_Landing_Fale_Conosco_Steps.que_eu_acesso_a_página_da_landing(String)[0m
+    [32mQuando [0m[32meu preencho o nome "[0m[32m[1mMonica Costa[0m[32m"[0m                                               [90m# Page_Landing_Fale_Conosco_Steps.eu_preencho_o_nome(String)[0m
+    [32mE [0m[32meu preencho o e-mail "[0m[32m[1mmonica.costasavoir.com.br[0m[32m"[0m                                     [90m# Page_Landing_Fale_Conosco_Steps.eu_preencho_o_e_mail(String)[0m
+    [32mE [0m[32meu preencho o telefone "[0m[32m[1m(11) 96305-3582[0m[32m"[0m                                             [90m# Page_Landing_Fale_Conosco_Steps.eu_preencho_o_telefone(String)[0m
+    [32mE [0m[32meu preencho o assunto "[0m[32m[1mTeste Cucumber[0m[32m"[0m                                               [90m# Page_Landing_Fale_Conosco_Steps.eu_preencho_o_assunto(String)[0m
+    [32mE [0m[32meu preencho a mensagem "[0m[32m[1mTeste Cucumber[0m[32m"[0m                                              [90m# Page_Landing_Fale_Conosco_Steps.eu_preencho_a_mensagem(String)[0m
+    [32mE [0m[32mclico em enviar[0m                                                                      [90m# Page_Landing_Fale_Conosco_Steps.clico_em_enviar()[0m
+    [32mEntão [0m[32meu devo ver a mensagem de erro "[0m[32m[1mPor favor, forneça um endereço de email válido.[0m[32m"[0m [90m# Page_Landing_Fale_Conosco_Steps.eu_devo_ver_a_mensagem_de_erro(String)[0m

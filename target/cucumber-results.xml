@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.436178">
-<testcase classname="" name="Enviar o formulário Fale Conosco com sucesso" time="32.436178">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="103.80517">
+<testcase classname="" name="Enviar o formulário Fale Conosco com sucesso" time="60.812285">
 <system-out><![CDATA[Dado que eu acesso a página da landing "http://www.hml.calendrier.com.br/contato/".passed
 Quando eu preencho o nome "Monica Costa"....................................passed
 E eu preencho o e-mail "monica.costa@savoir.com.br".........................passed
@@ -8,6 +8,17 @@ E eu preencho o assunto "Teste Cucumber"....................................pass
 E eu preencho a mensagem "Teste Cucumber"...................................passed
 E clico em enviar...........................................................passed
 Então eu devo ver a mensagem de confirmação "Seu e-mail foi enviado com sucesso!".passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="Enviar o formulário Fale Conosco com erro no e-mail" time="42.992885">
+<system-out><![CDATA[Dado que eu acesso a página da landing "http://www.hml.calendrier.com.br/contato/".passed
+Quando eu preencho o nome "Monica Costa"....................................passed
+E eu preencho o e-mail "monica.costasavoir.com.br"..........................passed
+E eu preencho o telefone "(11) 96305-3582"..................................passed
+E eu preencho o assunto "Teste Cucumber"....................................passed
+E eu preencho a mensagem "Teste Cucumber"...................................passed
+E clico em enviar...........................................................passed
+Então eu devo ver a mensagem de erro "Por favor, forneça um endereço de email válido.".passed
 ]]></system-out>
 </testcase>
 </testsuite>
